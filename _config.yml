@@ -1,0 +1,11 @@
+# Site settings
+title: Dale Palmer
+footer: Dale Palmer
+email: dale.palmer.jr13@gmail.com
+description: The purpose of this site is to highlight my journey into the world of development through Epicodus. You will discover here the projects that I feel proud to have made.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: Xxkilr0yxX
+github_username:  DalePalmer
+# Build settings
+markdown: kramdown
