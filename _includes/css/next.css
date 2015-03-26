@@ -1,3 +1,8 @@
 body {
 	background-image: url('fog-forest-haze.jpeg');
 }
+
+div.brighten
+ {
+	background: rgba(255, 255, 255, 0.4)
+}
