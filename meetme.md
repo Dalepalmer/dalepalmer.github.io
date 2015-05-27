@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: meetme
 title: Meet Me
 permalink: /meetme/
 ---
