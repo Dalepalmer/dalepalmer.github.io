@@ -2,8 +2,17 @@ body {
 	background-image: url('fog-forest-haze.jpeg');
 }
 
+.jumbotron {
+	background: rgba(0, 0, 0, 0.03)
+}
+
+#photo {
+	margin-left: 25%;
+}
+
+
 div.brighten {
-	background: rgba(0, 0, 0, 0.13)
+	background: rgba(0, 0, 0, 0.20)
 }
 
 p.text {
