@@ -1,14 +1,14 @@
 # Site settings
-title: Dale Palmer
-footer: Dale Palmer
-email: dale.palmer.jr13@gmail.com
+title: Dale Palmer Jr.
+footer: Dale Palmer Jr.
+email: dpalmerpdx@gmail.com
 description: The purpose of this site is to highlight my journey into the world of development through Epicodus. You will discover here the projects that I feel proud of.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://dalepalmer.github.io" # the base hostname & protocol for your site
 twitter_username: Xkilr0yX
 github_username:  DalePalmer
 address: Portland Oregon
-name: Dale Palmer
+name: Dale Palmer Jr.
 pic: 1
 position: Web Developer
 
