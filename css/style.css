@@ -1,9 +1,11 @@
 body {
-	background-image: url('fog-forest-haze.jpeg');
-}
+	background-image: url('forest.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
 
 .jumbotron {
-	background: rgba(0, 0, 0, 0.03)
+	background: rgba(0, 0, 0, 0.50)
 }
 
 #photo {
@@ -12,11 +14,5 @@ body {
 
 
 div.brighten {
-	background: rgba(0, 0, 0, 0.20)
-}
-
-p.text {
-	color: white;
-	font-style: italic;
-	font-weight: 500;
+	background: rgba(0, 0, 0, 0.30)
 }
