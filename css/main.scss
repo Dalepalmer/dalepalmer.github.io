@@ -6,8 +6,8 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   20px;
+$base-font-family: Arial, Helvetica, Sans-serif;
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -18,7 +18,7 @@ $background-color: #000000;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #B1B2B8;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color-light: lighten($grey-color, 75%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
