@@ -1,11 +1,67 @@
-body {
-	background-image: url('forest.jpeg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	}
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
 
 .jumbotron {
 	background: rgba(0, 0, 0, 0.50)
+}
+
+#main-container {
+	min-height: 40em;
 }
 
 #photo {
@@ -22,14 +78,74 @@ h4 {
     height: 200px;
 }
 
-#center {
-	text-align: center;
-	padding-top: 22px;
-	height: 200px;
-	width: relative;
+ // Only necessary for window height sized blocks.
+  html, body, .block {
+    height: 100%;
+  }
+
+#nav-mobile {
+	mix-blend-mode: difference;
 }
 
+#nav-name {
+	mix-blend-mode: difference;
+	margin-left: 1em;
+}
 
 div.brighten {
 	background: rgba(0, 0, 0, 0.30)
+}
+
+body {
+     display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+ }
+ main {
+     flex: 1 0 auto;
+ }
+
+// Class for when element is above threshold
+  .pin-top {
+    position: relative;
+  }
+
+  // Class for when element is below threshold
+  .pin-bottom {
+    position: relative;
+  }
+
+  // Class for when element is pinned
+  .pinned {
+    position: fixed !important;
+  }
+
+ #experience-card {
+ 	opacity: .8;
+ }
+
+ #education-card {
+ 	opacity: .8;
+ }
+
+ #personal-photo {
+ 	max-width: 15em; 
+ }
+
+ #meet-me-card {
+ 	opacity: .96;
+ }
+
+ @media only screen and (max-width: 992px){
+ nav .brand-logo {
+    left: 10% !important;
+}
+}
+
+#navbar-email {
+	padding-bottom: 11em
+}
+
+#staggered-list li {
+    opacity: 0;
 }

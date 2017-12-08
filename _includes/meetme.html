@@ -1,9 +1,17 @@
-<div class="container-fluid">
-		<h1> Hello, I'm Dale </h1>
-		<div">
-			<img class="img-circle" src="../css/Dale.jpg">
-			<div class="center"
-				<h4> Thank you for your interest.</h4>
-			</div>
+<div class="row">
+<div id="meet-me-card" class="card col s8 offset-s2 transparent">
+		<h1 class="flow-text center"> Hello, I'm Dale! </h1>
+		<div class="center">
+			<img id="personal-photo" class="responsive-img circle" src="../css/Dale.jpg">
 		</div>
 </div>
+</div>
+
+<script>
+  var options = [
+      {selector: '#personal-photo', offset: 0, callback: function(el) {
+        Materialize.fadeInImage($(el));
+      } }
+    ];
+    Materialize.scrollFire(options);
+</script>
