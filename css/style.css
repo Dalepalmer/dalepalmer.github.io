@@ -149,3 +149,7 @@ body {
 #staggered-list li {
     opacity: 0;
 }
+
+nav {
+  box-shadow: unset !important;
+}
