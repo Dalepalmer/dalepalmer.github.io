@@ -153,3 +153,7 @@ body {
 nav {
   box-shadow: unset !important;
 }
+
+body {
+  font-family: 'Antic Slab', serif;
+}
